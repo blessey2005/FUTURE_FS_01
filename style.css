@@ -25,6 +25,34 @@ nav a:hover {
   color: #ffcc00;        
   text-decoration: underline; 
 }
+
+#about {
+  border: 1px solid #ccc;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  background: #f9f9f9;
+}
+
+#about h2 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+#about p {
+  line-height: 1.6;
+  font-size: 1rem;
+  color: #444;
+}
+
+#skills ul {
+  list-style-type: square;
+  padding-left: 1.5rem;
+}
+
+#skills li {
+  margin-bottom: 0.5rem;
+}
 .resume-btn {
   background: #333;       
   color: #fff;            
@@ -66,3 +94,4 @@ button:hover {
   margin-top: 1rem;
   font-weight: bold;
 }
+
