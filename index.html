@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Shelsia's professional portfolio showcasing projects, resume, and contact information.">
+
+  <title>Shelsia's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Shelsia Blessey</h1>
+    <p>Web Developer</p>
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+ <section id="projects">
+  <h2>Projects</h2>
+  <div class="project">
+    <h3>Portfolio Website</h3>
+    <p>A Responsive Personal Portfolio built with HTML, CSS, and JS.</p>
+  </div>
+</section>
+
+<section id="resume">
+  <h2>Resume</h2>
+  <p><a href="resume.pdf" target="_blank" class="resume-btn">Download Resume</a></p>
+</section>
+
+<section id="contact">
+  <h2>Contact Me</h2>
+  <form id="contactForm" action="https://formspree.io/f/mnjgpqle" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message"></textarea>
+    <button type="submit">Send</button>
+  </form>
+  <p id="status"></p>
+</section>
+
+
+<footer>
+    <p>2026 Shelsia Blessey</p>
+</footer>
+  <script src="script.js"></script>
+</body>
+</html>
