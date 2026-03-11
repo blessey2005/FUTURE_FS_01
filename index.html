@@ -6,7 +6,9 @@
 
   <title>Shelsia's Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
+
 <body>
   <header>
     <h1>Shelsia Blessey</h1>
@@ -17,43 +19,45 @@
       <a href="#contact">Contact</a>
     </nav>
   </header>
-  <section id="about">
-  <h2>About Me</h2>
-  <p>
-   Motivated and Enthusiastic Computer Science Engineering student seeking an opportunity to apply technical skills in Software Developement and IOT.
-  </p>
-</section>
- <section id="projects">
+<section id="projects">
   <h2>Projects</h2>
+
  <div class="project">
-    <h3>Portfolio Website</h3>
-    <p>A responsive personal portfolio built with HTML, CSS, and JavaScript. Includes resume download and contact form integration.</p>
+    <h3><i class="fa-solid fa-laptop-code"></i> Portfolio Website</h3>
+    <p>A Responsive Personal Portfolio built with HTML, CSS, and JavaScript. Includes resume download and contact form integration.</p>
   </div>
- <div class="project">
-    <h3>IOT Project</h3>
-    <p>It's an IOT based cooking assistant that monitors temperature and whistle sound</p>
+
+  <div class="project">
+    <h3><i class="fa-solid fa-microchip"></i> IOT Project</h3>
+    <p>An IoT-based cooking assistant that monitors temperature and whistle sound.</p>
   </div>
 </section>
+
 <section id="skills">
   <h2>Skills</h2>
   <ul>
-    <li>Web Developement</li>
-    <li>programming-C</li>
-    <li>Software testing in BDD with Cucumber</li>
-    <li>Programming-python</li>
+    <li><i class="fa-solid fa-code"></i> Web Development</li>
+    <li><i class="fa-solid fa-terminal"></i> Programming - C</li>
+    <li><i class="fa-solid fa-vial"></i> Software Testing (BDD with Cucumber)</li>
+    <li><i class="fa-brands fa-python"></i> Python Programming</li>
   </ul>
 </section>
+
 <section id="resume">
   <h2>Resume</h2>
-  <p><a href="resume.pdf" target="_blank" class="resume-btn">Download Resume</a></p>
+  <p><a href="resume.pdf" target="_blank" class="resume-btn">
+    <i class="fa-solid fa-file-pdf"></i> Download Resume
+  </a></p>
 </section>
+
 <section id="contact">
   <h2>Contact Me</h2>
   <form id="contactForm" action="https://formspree.io/f/mnjgpqle" method="POST">
     <input type="text" name="name" placeholder="Your Name" required>
     <input type="email" name="email" placeholder="Your Email" required>
     <textarea name="message" placeholder="Your Message"></textarea>
-    <button type="submit">Send</button>
+    <button type="submit"><i class="fa-solid fa-paper-plane"></i> Send</button>
+
   </form>
   <p id="status"></p>
 </section>
@@ -63,6 +67,8 @@
   <script src="script.js"></script>
 </body>
 </html>
+
+
 
 
 
