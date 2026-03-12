@@ -30,6 +30,31 @@ nav a:hover {
   color: #ffcc00;        
   text-decoration: underline; 
 }
+#about {
+  max-width: 800px;   
+  margin: 0 auto;     
+  padding: 20px;      
+}
+
+#about h2 {
+  color: #333;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+#about p {
+  font-size: 1.1rem;
+  color: #444;
+  line-height: 1.6;
+  text-align: center; 
+}
+
+
+
+#projects {
+  padding:0 20px;
+}
 #skills {
   padding: 1.5rem;
   margin-bottom: 2rem;
@@ -67,6 +92,9 @@ nav a:hover {
 
 .resume-btn:hover {
   background: #333;       
+}
+#resume{
+  padding:0 20px;
 }
 #contact {
   padding: 2rem;
@@ -169,5 +197,6 @@ footer p {
 
 
   
+
 
 
